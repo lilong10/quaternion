@@ -15,7 +15,8 @@ Later extended to more applications:
 - Quaternion segmentation
 - Quaternion classification
 
-Reference, L. Shi, B. Funt and G. Hamarneh, "Quaternion Color Curvature," in Proc. Imaging Science and Technology Fourteenth Color Imaging Conference(CIC), Portland, Oregon, Nov 10-15, 2008. https://www.slideserve.com/koto/quaternion-color-curvature
-
+Reference, 
+L. Shi, B. Funt and G. Hamarneh, "Quaternion Color Curvature," in Proc. Imaging Science and Technology Fourteenth Color Imaging Conference(CIC), Portland, Oregon, Nov 10-15, 2008. https://www.slideserve.com/koto/quaternion-color-curvature
+L. Shi and B. Funt, "Quaternion Colour Texture," in AIC'2005 Proc. 10th Congress of the International Color Association(AIC), Granada, May 2005.
 
 
