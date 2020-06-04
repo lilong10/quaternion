@@ -1,5 +1,5 @@
 # quaternion
-Signal Processing by Quaternion Arithmetic 
+Color Image Signal Processing by Quaternion Arithmetic 
 
 Something I developed as a graduate student https://www2.cs.sfu.ca/~colour/ between 2003-2005.
 
