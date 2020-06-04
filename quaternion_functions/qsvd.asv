@@ -1,0 +1,33 @@
+function [Uq, Sq, Vq] = qsvd(Q)
+
+% convert the quaternion matrix into an equivalent complex matrix
+A = qua2com2(Q);
+% do SVD of the complex matrix A
+[Uc, Sc, Vc] = svd(A);
+
+% get half singular values of the diagonal
+Sq = sum(Sc);
+Sq = Sq(1:2:end);
+Sq = Sq';
+
+[B IX] = sort(-abs(Sq));  % the reason to sort Dq is because of the negative eigenvalues
+Sq = Sq(IX)';
+
+
+% convert from complex matrix to quaternion matrix
+V = Vc(:,end-1:-2:1);
+Vq = com2qua2(V(:,IX));
+
+
+% take half of the coloums by downsampling the matrix Uc and Vc
+% convert from complex matrix to quaternion matrix
+
+Uq = com2qua2(Uc(:,1:2:end));
+% convert from complex matrix to quaternion matrix
+% and take the hermitian transpose of it
+Vq = com2qua2(Vc(:,1:2:end));
+
+return;
+
+
+
