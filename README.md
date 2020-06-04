@@ -12,6 +12,7 @@ Later extended to more applications:
 - Quaternion edge detection
 - Quaternion texture
 - Quaternion curvature
+- Quaternion segmentation
 - Quaternion classification
 
 Reference, L. Shi, B. Funt and G. Hamarneh, "Quaternion Color Curvature," in Proc. Imaging Science and Technology Fourteenth Color Imaging Conference(CIC), Portland, Oregon, Nov 10-15, 2008. https://www.slideserve.com/koto/quaternion-color-curvature
